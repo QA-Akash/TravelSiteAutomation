@@ -11,11 +11,12 @@ def setup(request):
     options = webdriver.ChromeOptions()
     options.binary_location = chrome_binary
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-    wait = WebDriverWait(driver, 10)   # For the wait this is not te ideal way, so we will externalize this wevdriverWait seperately
-    driver.get("https://www.yatra.com")
+    # wait = WebDriverWait(driver, 10)
+    # For the wait this is not te ideal way, so we will externalize this wevdriverWait seperately
+    driver.get("https://www.yatra.com/")
     driver.maximize_window()
     request.cls.driver = driver
-    request.cls.wait = wait
+    # request.cls.wait = wait
 
     yield
     driver.close()
