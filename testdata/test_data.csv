@@ -1,5 +1,4 @@
 depart_location,arrival_location,departure_date,stops
 New Delhi,Mumbai,28/02/2024,1 Stop
-New Delhi,Mumbai,28/02/2024,2 Stop
 Pune,Dubai,27/02/2024,Non Stop
-Aurangabad,New Delhi,24/02/2024,2 Stop
+Aurangabad,New Delhi,24/02/2024,1 Stop
