@@ -1,13 +1,18 @@
+import logging
 import time
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 
+from Pages.search_flight_result_page import SearchFlightResult
 from base.base_driver import BaseDriver
+from utilities.utils import Utils
 
 
 class LaunchPage(BaseDriver):
+    log = Utils.custom_logger()
+
     def __init__(self, driver):  # wait is removed
         super().__init__(driver)
         self.driver = driver
@@ -57,8 +62,11 @@ class LaunchPage(BaseDriver):
     # Action we are going to perform on the web-element
     def enter_going_to_location(self, arrival_location):
         self.get_going_to_location().click()
+        self.log.info("Clicked on Going To")
         self.get_going_to_location().send_keys(arrival_location)
-        # self.get_going_to_location().send_keys(Keys.ENTER)
+        self.log.info("Typed going to the field successfully")
+        # self.get_going_to_location
+        # n().send_keys(Keys.ENTER)
 
         search_results = self.get_going_to_result()
         # going_to.send_keys(Keys.ENTER)
@@ -91,6 +99,8 @@ class LaunchPage(BaseDriver):
         self.enter_going_to_location(arrival_location)
         self.enter_departure_date(departure_date)
         self.click_search_butn()
+        search_fight_result = SearchFlightResult(self.driver)
+        return search_fight_result
 
 
 """

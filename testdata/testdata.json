@@ -1,0 +1,14 @@
+{
+  "test1":{
+    "depart_location": "New Delhi",
+    "arrival_location": "JFK",
+    "departure_date": "28/03/2024",
+    "stops": "1 Stop"
+  },
+  "test2": {
+    "depart_location": "IXU",
+    "arrival_location": "BOM",
+    "departure_date": "22/03/2024",
+    "stops": "Non Stop"
+  }
+}

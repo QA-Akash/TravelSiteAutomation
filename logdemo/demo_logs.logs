@@ -1,0 +1,62 @@
+INFO:root:sum of the two number is: 50
+WARNING:root:sum of the two number is: 50
+ERROR:root:sum of the two number is: 50
+CRITICAL:root:sum of the two number is: 50
+INFO:root:sum of the two number is: 300
+CRITICAL:root:sum of the two number is: 300
+INFO:root:sum of the two number is: 50
+WARNING:root:sum of the two number is: 50
+ERROR:root:sum of the two number is: 50
+CRITICAL:root:sum of the two number is: 50
+INFO:root:sum of the two number is: 300
+CRITICAL:root:sum of the two number is: 300
+INFO:root:sum of the two number is: 50
+WARNING:root:sum of the two number is: 50
+ERROR:root:sum of the two number is: 50
+CRITICAL:root:sum of the two number is: 50
+INFO:root:sum of the two number is: 300
+CRITICAL:root:sum of the two number is: 300
+INFO:root:sum of the two number is: 50
+WARNING:root:sum of the two number is: 50
+ERROR:root:sum of the two number is: 50
+CRITICAL:root:sum of the two number is: 50
+INFO:root:sum of the two number is: 300
+CRITICAL:root:sum of the two number is: 300
+2024-02-13 16:57:51,221
+2024-02-13 16:57:51,231
+2024-02-13 16:57:51,232
+2024-02-13 16:57:51,232
+2024-02-13 16:57:51,232
+2024-02-13 16:57:51,232
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 16:58:11,573
+2024-02-13 17:00:19,570 - DEBUG : sum of the two number is: 50
+2024-02-13 17:00:19,585 - INFO : sum of the two number is: 50
+2024-02-13 17:00:19,585 - WARNING : sum of the two number is: 50
+2024-02-13 17:00:19,585 - ERROR : sum of the two number is: 50
+2024-02-13 17:00:19,585 - CRITICAL : sum of the two number is: 50
+2024-02-13 17:00:19,585 - INFO : sum of the two number is: 300
+2024-02-13 17:00:19,586 - DEBUG : sum of the two number is: 300
+2024-02-13 17:00:19,586 - CRITICAL : sum of the two number is: 300
+2024-02-13 17:00:37,327 - DEBUG :- sum of the two number is: 50
+2024-02-13 17:00:37,328 - INFO :- sum of the two number is: 50
+2024-02-13 17:00:37,328 - WARNING :- sum of the two number is: 50
+2024-02-13 17:00:37,328 - ERROR :- sum of the two number is: 50
+2024-02-13 17:00:37,328 - CRITICAL :- sum of the two number is: 50
+2024-02-13 17:00:37,328 - INFO :- sum of the two number is: 300
+2024-02-13 17:00:37,328 - DEBUG :- sum of the two number is: 300
+2024-02-13 17:00:37,328 - CRITICAL :- sum of the two number is: 300
+02/13/2024 05:02:17 PM - DEBUG :- sum of the two number is: 50
+02/13/2024 05:02:17 PM - INFO :- sum of the two number is: 50
+02/13/2024 05:02:17 PM - WARNING :- sum of the two number is: 50
+02/13/2024 05:02:17 PM - ERROR :- sum of the two number is: 50
+02/13/2024 05:02:17 PM - CRITICAL :- sum of the two number is: 50
+02/13/2024 05:02:17 PM - INFO :- sum of the two number is: 300
+02/13/2024 05:02:17 PM - DEBUG :- sum of the two number is: 300
+02/13/2024 05:02:17 PM - CRITICAL :- sum of the two number is: 300

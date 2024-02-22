@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_Search_And_verify_Filter:test_caseone.py:51 Flight, Cheap Air Tickets , Hotels, Holiday, Trains Package Booking - Yatra.com
+[32mINFO    [0m LaunchPage:yatra_launch_page.py:65 Clicked on Going To
+[32mINFO    [0m LaunchPage:yatra_launch_page.py:67 Typed going to the field successfully

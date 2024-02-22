@@ -1,0 +1,11 @@
+ from openpyxl import workbook, load_workbook
+ def read_data_from_excel(self):
+        wb = load_workbook(filename='testdata.xlsx')
+        sh = wb['TestData']
+        row_count = sh.max_row
+        column_count = sh.max_column
+
+        for i in range(1, row_count + 1):
+            for j in range(1, column_count + 1):
+                print(sh.cell(row=i, column=j).value, end=' ')
+                print("\n")
