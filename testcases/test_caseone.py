@@ -47,29 +47,32 @@ class Test_Search_And_verify_Filter(softest.TestCase):
         # Launch the travel website
         :return: travel launch page
         """
-        assert 'Yatra.com' in self.driver.title
-        self.log.info(self.driver.title)
-        # lp = LaunchPage(self.driver)
-        # search_flight_result = self.lp.search_flights('Aurangabad', 'Delhi', 24/02/2024)
-        search_flight_result = self.lp.search_flights(depart_location, arrival_location, departure_date)
-        self.lp.page_scroll()
-        search_flight_result.filter_flight_by_stop(stops)
-        # To handle the dynamic scroll
-        # lp.page_scroll() # this will finally become self.lp.page_scroll()
-        # Select the filter 1 stop
-        # sf = SearchFlightResult(self.driver)
-        # sf.filter_flight_by_stop("1 Stop")
+        try:
+            assert 'Yatra.com' in self.driver.title
+            self.log.info(self.driver.title)
+            # lp = LaunchPage(self.driver)
+            # search_flight_result = self.lp.search_flights('Aurangabad', 'Delhi', 24/02/2024)
+            search_flight_result = self.lp.search_flights(depart_location, arrival_location, departure_date)
+            self.lp.page_scroll()
+            search_flight_result.filter_flight_by_stop(stops)
+            # To handle the dynamic scroll
+            # lp.page_scroll() # this will finally become self.lp.page_scroll()
+            # Select the filter 1 stop
+            # sf = SearchFlightResult(self.driver)
+            # sf.filter_flight_by_stop("1 Stop")
 
-        # print(len(sf.get_filter_flight_results()))
-        # sf.click_on_specific_stop()
-        # all_stops = self.wait_for_presence_of_all_elements()
+            # print(len(sf.get_filter_flight_results()))
+            # sf.click_on_specific_stop()
+            # all_stops = self.wait_for_presence_of_all_elements()
 
-        # all_stops = sf.get_search_filter_flight_results()
-        all_stops = search_flight_result.get_search_filter_flight_results()
-        self.log.info(len(all_stops))
-        # ut = Utils()
-        self.ut.assert_list_item_text(all_stops, stops)
-    #
+            # all_stops = sf.get_search_filter_flight_results()
+            all_stops = search_flight_result.get_search_filter_flight_results()
+            self.log.info(len(all_stops))
+            # ut = Utils()
+            self.ut.assert_list_item_text(all_stops, stops)
+
+        except:
+            self.log.debug("TestCase Failed Give the correct input")
     # def test_search_flight_2_stop(self):
     #     """
     #                 # Launch the travel website

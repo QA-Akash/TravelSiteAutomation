@@ -618,3 +618,16 @@
 02/22/24 05:47:30 :PM - INFO - Test_Search_And_verify_Filter - Flight, Cheap Air Tickets , Hotels, Holiday, Trains Package Booking - Yatra.com
 02/22/24 05:47:31 :PM - INFO - LaunchPage - Clicked on Going To
 02/22/24 05:47:31 :PM - INFO - LaunchPage - Typed going to the field successfully
+02/23/24 12:20:09 :AM - INFO - Test_Search_And_verify_Filter - Flight, Cheap Air Tickets , Hotels, Holiday, Trains Package Booking - Yatra.com
+02/23/24 12:20:09 :AM - INFO - Test_Search_And_verify_Filter - Flight, Cheap Air Tickets , Hotels, Holiday, Trains Package Booking - Yatra.com
+02/23/24 12:20:09 :AM - INFO - Test_Search_And_verify_Filter - Flight, Cheap Air Tickets , Hotels, Holiday, Trains Package Booking - Yatra.com
+02/23/24 12:20:11 :AM - INFO - LaunchPage - Clicked on Going To
+02/23/24 12:20:11 :AM - INFO - LaunchPage - Clicked on Going To
+02/23/24 12:20:11 :AM - INFO - LaunchPage - Typed going to the field successfully
+02/23/24 12:20:11 :AM - INFO - LaunchPage - Typed going to the field successfully
+02/23/24 12:20:11 :AM - INFO - LaunchPage - Clicked on Going To
+02/23/24 12:20:12 :AM - INFO - LaunchPage - Typed going to the field successfully
+02/23/24 12:20:12 :AM - DEBUG - Test_Search_And_verify_Filter - TestCase Failed Give the correct input
+02/23/24 12:20:13 :AM - DEBUG - Test_Search_And_verify_Filter - TestCase Failed Give the correct input
+02/23/24 12:20:21 :AM - WARNING - SearchFlightResult - Selected flights with 1 stop
+02/23/24 12:20:23 :AM - INFO - Test_Search_And_verify_Filter - 25
