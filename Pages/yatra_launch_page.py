@@ -55,8 +55,8 @@ class LaunchPage(BaseDriver):
         :return: to actions on that field
         """
         self.get_depart_from_field().click()
-        self.get_depart_from_field().send_keys(
-            depart_location)  # we don't get auto-suggestion because we have wrapped the methods now
+        self.get_depart_from_field().send_keys(depart_location)
+        # we don't get auto-suggestion because we have wrapped the methods now
         self.get_depart_from_field().send_keys(Keys.ENTER)
 
     # Action we are going to perform on the web-element

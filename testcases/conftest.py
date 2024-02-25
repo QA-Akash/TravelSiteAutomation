@@ -21,6 +21,7 @@ def setup(request, browser, url):
     if browser == "chrome":
         chrome_binary = "D:/chrome-win64/chrome-win64/chrome.exe"
         options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
         options.binary_location = chrome_binary
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
